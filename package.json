@@ -1,0 +1,19 @@
+{
+  "name": "node_learn",
+  "version": "1.0.0",
+  "description": "node learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kukudeshiyi/node_learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kukudeshiyi/node_learn/issues"
+  },
+  "homepage": "https://github.com/kukudeshiyi/node_learn#readme"
+}
