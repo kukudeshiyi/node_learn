@@ -1,7 +1,6 @@
 // 环境变量
 // console.log(process.env.NODE_ENV);
 
-
 // 异步
 // nextTick 会让函数在 node 的下一个循环执行
 // 比 setTimeout 的性能高
@@ -54,7 +53,7 @@
 //     // fork 指定的路径是相当于 cwd 来定的
 //     child.fork("./src/process/child.js",{
 //         stdio:"inherit"
-//     }); 
+//     });
 // })()
 
 // 标准输入输出
@@ -75,17 +74,15 @@
 //     })
 // })()
 
-
 // TODO:用户组/用户 相关
-
 
 // 当前进程信息
 // process.pid：返回进程id
 // process.title：可以用它来修改进程的名字，当你用ps命令，同时有多个node进程在跑的时候，作用就出来了
 // process.uptime()：当前node进程已经运行了多长时间（单位是秒）。
 // process.memoryUsage()：返回进程占用的内存，单位为字节。输出内容大致如下：
-// { 
-//     rss: 19181568, 
+// {
+//     rss: 19181568,
 //     heapTotal: 8384512, // V8占用的内容
 //     heapUsed: 4218408 // V8实际使用了的内存
 // }
@@ -102,7 +99,6 @@
 // process.config：返回当前 node版本 编译时的参数，同样很少会用到，一般用来查问题。
 // process.execPath：node可执行程序的绝对路径，比如 '/usr/local/bin/node'
 
-
 // 进程运行所在环境
 // process.arch：返回当前系统的处理器架构（字符串），比如'arm', 'ia32', or 'x64'。
 // process.platform：返回关于平台描述的字符串，比如 darwin、win32 等。
@@ -118,7 +114,6 @@
 // });
 
 // })()
-
 
 // 向进程发送信号
 // process.kill(process.pid,'SIGNUP');
