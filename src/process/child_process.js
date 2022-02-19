@@ -68,3 +68,5 @@ const fork = require("child_process").fork;
 // command：要执行的命令
 
 const spawn = require("child_process").spawn;
+const child = spawn("ls", ["-a"]);
+child.stdout.pipe(process.stdout);
